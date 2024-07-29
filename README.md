@@ -31,3 +31,7 @@ In the project we are going to use snort tool to monitor suspicious activity per
    sudo snort -A console -q -u snort -g snort -c /etc/snort/snort.conf -i <network_type>
    ```
 10. Now your network monitering is started and if any on attack on your machine it display attack type and attacker ip address.
+## About: -
+A Network Intrusion Detection System (NIDS) is a security tool used to monitor and analyze network traffic for signs of unauthorized access, suspicious activity, or policy violations. NIDS works by inspecting incoming and outgoing network packets and comparing them against a database of known attack signatures or by identifying anomalies that may indicate malicious activity.
+## Tool Used: -
+Snort is one of the most popular and widely-used NIDS. It operates in various modes, including packet sniffing, logging, and intrusion detection.
